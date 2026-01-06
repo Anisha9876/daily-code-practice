@@ -8,6 +8,10 @@ public class PrimeNumber {
         int n=sc.nextInt();
         boolean isPrm=true;
         int i=2;
+        if (n <= 1) {
+            System.out.println("Not a prime number");
+            return;
+        }
         while(i<n) {
             if(n%i == 0){
                 isPrm=false;
