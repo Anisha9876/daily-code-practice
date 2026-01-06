@@ -9,7 +9,7 @@ public class PrimeNumber {
         boolean isPrm=true;
         int i=2;
         while(i<n) {
-            if(i%n==0){
+            if(n%i == 0){
                 isPrm=false;
             }
             i++;
