@@ -1,6 +1,8 @@
 package HackerRank.Strings;
 
 
+import java.util.LinkedHashSet;
+
 
 public class RemoveDuplicatesCharacters {
     public static void main(String[] args) {
@@ -23,6 +25,19 @@ public class RemoveDuplicatesCharacters {
 //                res=res+c;
 //            }
         }
-        System.out.println(res);
+        RemoveUsingSet(str);
+        System.out.println("Using Brut force Method--> "+res);
+    }
+
+    public static void RemoveUsingSet(String s) {
+        LinkedHashSet<Character> set = new LinkedHashSet<>();
+        String str="";
+        for (char ch : s.toCharArray()) {
+            set.add(ch);
+        }
+       for(char c:set){
+            str=str+c;
+       }
+        System.out.println("SO the resultant string using LinkedHashSet ---> "+str);
     }
 }
