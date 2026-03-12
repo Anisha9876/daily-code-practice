@@ -5,6 +5,7 @@ public class RotateBy_K {
         int[] arr={1,2,3,4,5};
         int k=2;
         int len=arr.length;
+        k=k%len;
        reverse(arr,0,len-1);
       reverse(arr,0,k-1);
       reverse(arr,k,len-1);
