@@ -5,8 +5,8 @@ import java.util.HashMap;
 public class AnagramsCheck {
     public static void main(String[] args) {
         //If the same letters are in different order known as anagrams
-        String str1="teaa";
-        String str2="eatt";
+        String str1="tea";
+        String str2="eat";
 
         HashMap<Character,Integer> map=new HashMap<>();
         if(str1.length() !=str2.length()){
