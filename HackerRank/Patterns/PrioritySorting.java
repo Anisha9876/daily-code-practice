@@ -2,7 +2,7 @@ package HackerRank.Patterns;
 //import java.util.Scanner;
 public class PrioritySorting {
     public static void main(String args[]){
-        // 0-high priority,1-mid,2-low  separated by comma
+        // 0-high priority,1-mid,2-low
         //high to low
 //        Scanner sc= new Scanner(System.in);
 //        String[] str=sc.nextLine().split(",");
