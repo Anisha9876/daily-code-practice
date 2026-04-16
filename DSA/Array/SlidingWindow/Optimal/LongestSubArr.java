@@ -7,6 +7,9 @@ public class LongestSubArr {
         int e=0,l=0;
         int maxLen=1;
         int sum=0;
+        // Here we shrink only one
+        //when only length ask we can use this
+        //but not when it ask for subArray itself
         while(e<arr.length){
             sum=sum+arr[e];
             if(sum>k){
