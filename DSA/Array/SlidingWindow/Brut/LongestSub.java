@@ -17,6 +17,9 @@ public class LongestSub {
                         maxLen=len;
                     }
                 }
+                else if(sum>k){
+                    break;
+                }
 
             }
 
