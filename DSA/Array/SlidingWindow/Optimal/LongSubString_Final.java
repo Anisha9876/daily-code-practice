@@ -1,4 +1,4 @@
-package DSA.Array.SlidingWindow.Brut;
+package DSA.Array.SlidingWindow.Optimal;
 
 import java.util.HashSet;
 
