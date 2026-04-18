@@ -2,7 +2,7 @@ package DSA.Array.SlidingWindow.Brut;
 
 import java.util.HashSet;
 
-public class LongestSubString {
+public class LongestSubString_first {
     public static void main(String[] args) {
         //longest subString which contain no repeating character
 
