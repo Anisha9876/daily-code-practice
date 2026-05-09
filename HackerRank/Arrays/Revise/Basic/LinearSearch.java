@@ -1,6 +1,6 @@
 package HackerRank.Arrays.Revise.Basic;
 
-public class BinarySearch {
+public class LinearSearch {
     public static void main(String[] args) {
         int[] arr={1,5,3,7,8,9};
         int target=18;
